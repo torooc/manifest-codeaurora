@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="https://gitlab.com/codeaurora-mirror/quic/la/" name="caf" review="codeaurora.org"/>
+  <remote fetch="https://git.codelinaro.org/clo/la/" name="caf" review="codeaurora.org"/>
   <default remote="caf" revision="LA.UM.10.9.1.r1"/>
   <project name="abl/tianocore/edk2" path="bootable/bootloader/edk2" revision="023d82fed7675c5330549fdc402dee66066fee50" upstream="LA.UM.10.9.1.r1"/>
   <project groups="aosp" name="device/amlogic/yukawa" revision="2f132d927bbad8b6b7cc57669dc34f2f7b71a78e" upstream="LA.UM.10.9.1.r1"/>

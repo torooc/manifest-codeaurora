@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="https://gitlab.com/codeaurora-mirror/quic/la/" name="caf" review="codeaurora.org"/>
+  <remote fetch="https://git.codelinaro.org/clo/la/" name="caf" review="codeaurora.org"/>
   <default remote="caf" revision="qcom-devices-auto.lnx.2.0"/>
   <project name="abl/tianocore/edk2" path="bootable/bootloader/edk2" revision="9b7a6d6f45766059d70950da9989a15ba34c12f4" upstream="refs/heads/uefi.lnx.1.9.1.r2-rel"/>
   <project groups="aosp" name="device/common" revision="414e5d297e27d64d24c533cd93cb2203c2ef4c09" upstream="refs/heads/automotive-aosp.lnx.2.1.r1-rel"/>

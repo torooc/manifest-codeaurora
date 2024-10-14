@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="https://gitlab.com/codeaurora-mirror/quic/la/" name="caf" review="codeaurora.org"/>
+  <remote fetch="https://git.codelinaro.org/clo/la/" name="caf" review="codeaurora.org"/>
   <default remote="caf" revision="partner-android/q-fs-release"/>
   <project groups="aosp-android12-release,device,pdk,yukawa" name="device/amlogic/yukawa" revision="cd73aecebb8914478ff4f42abf946b138b1e4406" upstream="refs/heads/ks-aosp.lnx.12.0.r6-rel"/>
   <project clone-depth="2" groups="aosp-android12-release,device,pdk,yukawa" name="device/amlogic/yukawa-kernel" revision="e003119850ed3b9d8bfd807711b7338713690937" upstream="refs/heads/ks-aosp.lnx.12.0.r6-rel"/>

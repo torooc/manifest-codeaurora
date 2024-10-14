@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="https://gitlab.com/codeaurora-mirror/quic/la/" name="caf" review="codeaurora.org"/>
+  <remote fetch="https://git.codelinaro.org/clo/la/" name="caf" review="codeaurora.org"/>
   <default remote="caf" revision="LA.UM.10.9.1.r1"/>
   <project name="abl/tianocore/edk2" path="bootable/bootloader/edk2" revision="fafcea03b9e79bad68ed5d77b8a02dedced7eaba" upstream="LA.UM.10.9.1.r1.2"/>
   <project name="camera-samples" path="vendor/qcom/opensource/camera-samples" revision="f7d70cd5c81fca36b7ef4bdaee9c1825f1c2dc7d" upstream="LA.UM.10.9.1.r1">

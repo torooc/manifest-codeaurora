@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="https://gitlab.com/codeaurora-mirror/quic/la/" name="caf" review="codeaurora.org"/>
+  <remote fetch="https://git.codelinaro.org/clo/la/" name="caf" review="codeaurora.org"/>
   <default remote="caf" revision="partner-android/p-fs-release"/>
   <project dest-branch="refs/heads/uefi.lnx.1.9.c5" name="abl/tianocore/edk2" path="bootable/bootloader/edk2" revision="e8222af28c2cdcf3725859d0a9fc613f25785b96" upstream="refs/heads/uefi.lnx.1.9.c5"/>
   <project dest-branch="refs/heads/keystone/p-keystone-qcom" groups="mirror-aosp-pie-platform-release,pdk,pdk-cw-fs" name="device/common" revision="fa72fa0fbc63090aab81e32fede6e3ba33d0a3eb" upstream="refs/heads/keystone/p-keystone-qcom-release"/>

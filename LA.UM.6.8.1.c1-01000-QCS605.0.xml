@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="https://gitlab.com/codeaurora-mirror/quic/la/" name="caf" review="codeaurora.org"/>
+  <remote fetch="https://git.codelinaro.org/clo/la/" name="caf" review="codeaurora.org"/>
   <default remote="caf" revision="refs/heads/android-external.lnx.2.9.1-rel"/>
   <project dest-branch="refs/heads/uefi.lnx.1.9" name="abl/tianocore/edk2" path="bootable/bootloader/edk2" revision="c7455c404416e84588193c9ad2af0f3bdb19499f" upstream="refs/heads/uefi.lnx.1.9"/>
   <project dest-branch="refs/heads/android-framework.lnx.3.1.c3" name="device/common" revision="44f3e76431cd7ab8d546d4eac9fccd391f28bc15" upstream="refs/heads/android-framework.lnx.3.1.c3"/>

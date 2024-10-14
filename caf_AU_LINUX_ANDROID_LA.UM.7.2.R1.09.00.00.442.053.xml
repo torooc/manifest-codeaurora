@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="https://gitlab.com/codeaurora-mirror/quic/la/" name="caf" review="codeaurora.org"/>
+  <remote fetch="https://git.codelinaro.org/clo/la/" name="caf" review="codeaurora.org"/>
   <default remote="caf" revision="refs/heads/LA.UM.7.2.r1"/>
   <project name="abl/tianocore/edk2" path="bootable/bootloader/edk2" revision="3f0a6230d52bbfbb1f0d34c13b62428c7dfb2c3d" upstream="refs/heads/uefi.lnx.1.9.r14-rel"/>
   <project groups="mirror-aosp-pie-platform-release,pdk,pdk-cw-fs" name="device/common" revision="770294e776b4b76387c16f508c47e9be3a6b63bb" upstream="refs/heads/ks-aosp.lnx.1.0.r2-rel"/>

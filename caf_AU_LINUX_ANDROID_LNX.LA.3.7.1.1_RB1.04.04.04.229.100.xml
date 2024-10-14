@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="https://gitlab.com/codeaurora-mirror/quic/la/" name="caf" review="codeaurora.org"/>
+  <remote fetch="https://git.codelinaro.org/clo/la/" name="caf" review="codeaurora.org"/>
   <default remote="caf" revision="LNX.LA.3.7.1.1_rb1.51"/>
   <project name="device/common" revision="96d4d2006c4fcb2f19a3fa47ab10cb409faa017b" upstream="LNX.LA.3.7.1.1_rb1.51"/>
   <project groups="pdk" name="device/generic/armv7-a-neon" revision="1bb28abbc215f45220620af5cd60a8ac1be93722" upstream="LNX.LA.3.7.1.1_rb1.51"/>

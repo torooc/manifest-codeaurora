@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="https://gitlab.com/codeaurora-mirror/quic/la/" name="caf" review="codeaurora.org"/>
+  <remote fetch="https://git.codelinaro.org/clo/la/" name="caf" review="codeaurora.org"/>
   <default remote="caf" revision="partner-android/q-fs-release"/>
   <project name="abl/tianocore/edk2" path="bootable/bootloader/edk2" revision="31203b74f8b0505de93548f53dfd89e59d5864f4" upstream="refs/heads/uefi.lnx.2.0.r20-rel"/>
   <project name="camera-samples" path="vendor/qcom/opensource/camera-samples" revision="29e13a398fbac7a8224d94251e41534a7e14d576" upstream="refs/heads/iot-concam-apk.lnx.1.1.r2-rel"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="https://gitlab.com/codeaurora-mirror/quic/la/" name="caf" review="codeaurora.org"/>
+  <remote fetch="https://git.codelinaro.org/clo/la/" name="caf" review="codeaurora.org"/>
   <default remote="caf" revision="partner-android/q-fs-release"/>
   <project name="abl/tianocore/edk2" path="bootable/bootloader/edk2" revision="a57d1ef7c1e28d946b8ca31578b8e6f21380a02b" upstream="refs/heads/uefi.lnx.2.1.r10-rel"/>
   <project groups="aosp-android11-release,device,pdk,yukawa" name="device/amlogic/yukawa" revision="90b69769cacb38d0a73aa2e0af1f6b8028b3ad16" upstream="refs/heads/ks-aosp.lnx.3.0.r8-rel"/>

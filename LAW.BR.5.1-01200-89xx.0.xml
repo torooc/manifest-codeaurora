@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="https://gitlab.com/codeaurora-mirror/quic/la/" name="caf" review="codeaurora.org"/>
+  <remote fetch="https://git.codelinaro.org/clo/la/" name="caf" review="codeaurora.org"/>
   <default remote="caf" revision="LAW.BR.5.1"/>
   <project groups="device,pdk,r-fs-release,yukawa" name="device/amlogic/yukawa" revision="df9c99510359ecadd6c8ea2b52b0127565e940a7" upstream="LAW.BR.5.1"/>
   <project clone-depth="2" groups="device,pdk,r-fs-release,yukawa" name="device/amlogic/yukawa-kernel" revision="7807a99270a74b5fdf39e1b8d6892911c38245e0" upstream="LAW.BR.5.1"/>

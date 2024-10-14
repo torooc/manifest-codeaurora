@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="https://gitlab.com/codeaurora-mirror/quic/la/" name="caf" review="codeaurora.org"/>
+  <remote fetch="https://git.codelinaro.org/clo/la/" name="caf" review="codeaurora.org"/>
   <default remote="caf" revision="LA.UM.5.6.c1"/>
   <project groups="pdk-cw-fs,pdk-fs" name="device/common" revision="762617a12642c9de3e3ce66b26f6c8b122c06e0f" upstream="LA.UM.5.6.c1"/>
   <project groups="pdk" name="device/generic/arm64" revision="59076b7c5c52c55f7b88042788ee231524370533" upstream="LA.UM.5.6.c1"/>
